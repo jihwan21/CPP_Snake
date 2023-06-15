@@ -1,9 +1,9 @@
 #pragma once
-class IObject
+class Object
 {
 public:
-	IObject() {}
-	virtual ~IObject() {}
+	Object() {}
+	virtual ~Object() {}
 	virtual void Update(float eTime) = 0;
 	virtual void Render() = 0;
 };
